@@ -21,6 +21,8 @@ print(big_south.head())
 print("exercise 5")
 df['per_unit'] = df['revenue'] / df['quantity']
 print(df.head())
+mean_per_unit = df['per_unit'].mean()
+print(mean_per_unit)
 print("exercise 6")
 print("exercise 7")
 print("exercise 8")
